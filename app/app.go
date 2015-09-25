@@ -71,6 +71,10 @@ var DefaultOptions = Options{
 	Preferences:     make(map[string]interface{}),
 }
 
+func init() {
+	log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+}
+
 func New(command []string, options *Options) (*App, error) {
 	titleTemplate, err := template.New("title").Parse(options.TitleFormat)
 	if err != nil {

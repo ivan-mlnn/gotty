@@ -48,6 +48,9 @@ type ContextVars struct {
 	RemoteAddr string
 }
 
+func init() {
+	log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+}
 func (context *clientContext) goHandleClient() {
 	exit := make(chan bool, 2)
 
