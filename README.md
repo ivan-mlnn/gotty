@@ -9,24 +9,13 @@
 [license]: https://github.com/yudai/gotty/blob/master/LICENSE
 
 
+
 GoTTY is a simple command line tool that turns your CLI tools into web applications.
 
 ![Screenshot](https://raw.githubusercontent.com/yudai/gotty/master/screenshot.gif)
 
 # Installation
 
-Download the latest binary file from the [Releases](https://github.com/yudai/gotty/releases) page.
-
-(`darwin_amd64.tar.gz` is for Mac OS X users)
-
-## Homebrew Installation
-
-You can install GoTTY with [Homebrew](http://brew.sh/) as well.
-
-```sh
-$ brew tap yudai/gotty
-$ brew install gotty
-```
 
 ## `go get` Installation
 
