@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/yudai/gotty",
+	"ImportPath": "github.com/ivan-mlnn/gotty",
 	"GoVersion": "go1.5",
 	"Deps": [
 		{
